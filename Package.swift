@@ -22,6 +22,7 @@ let package = Package(
 //        .package(path: "../Async"),
 //        .package(path: "../Logger"),
         .package(url: "https://pubgi.fanapsoft.ir/chat/ios/async.git", exact: "1.3.1"),
+        .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.

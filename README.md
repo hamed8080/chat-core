@@ -1,5 +1,6 @@
 # ChatCore
-A set of extensions to ease using of repetitive useful methods and variables.
+
+<h5>ChatCore SDK consists of all prerequisite models and protocols for Chat SDK.</h5>
 
 <img src="https://github.com/hamed8080/chat-core/raw/main/images/icon.png"  width="164" height="164">
 
@@ -23,13 +24,12 @@ Add in `Package.swift` or directly in `Xcode Project dependencies` section:
 Add in `Podfile`:
 
 ```ruby
- pod "Async", :git => 'http://pubgi.fanapsoft.ir/chat/ios/chat-core.git', :tag => '1.0.0'
+pod "Async", :git => 'http://pubgi.fanapsoft.ir/chat/ios/chat-core.git', :tag => '1.0.0'
 ```
 <br/>
 
-## [Documentation](https://hamed8080.gitlab.io/chat-core/documentation/chat-core/)
-For more information about how to use ChatCore visit [Documentation](https://hamed8080.gitlab.io/chat-core/documentation/chat-core/) 
-<br/>
+## [Documentation](https://hamed8080.gitlab.io/chat-core/documentation/chatcore/)
+For more information about how to use ChatCore visit [Documentation](https://hamed8080.gitlab.io/chat-core/documentation/chatcore/) 
 <br/>
 
 ## Contributing to ChatCore

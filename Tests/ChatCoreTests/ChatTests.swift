@@ -11,4 +11,8 @@ final class ChatTests: XCTestCase {
 
     override func setUpWithError() throws {
     }
+
+     func test_function() {
+        XCTAssertTrue(true)
+    }
 }

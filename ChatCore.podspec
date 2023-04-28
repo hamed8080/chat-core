@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "ChatCore"
   s.version      = "1.0.0"
   s.summary      = "ChatCore"
-  s.description  = "Additive is a set of UI extensions and custom views."
+  s.description  = "ChatCore SDK consists of all prerequisite models and protocols for Chat SDK."
   s.homepage     = "https://pubgi.fanapsoft.ir/chat/ios/chat-core"
   s.license      = "MIT"
   s.author       = { "Hamed Hosseini" => "hamed8080@gmail.com" }
