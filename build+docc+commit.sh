@@ -5,6 +5,8 @@ source $(dirname $0)/environment+variables.sh
 #Use git worktree to checkout the $DOCC_BRANCH_NAME branch of this repository in a $DOCC_BRANCH_NAME sub-directory
 git worktree add --checkout $DOCC_BRANCH_NAME
 
+rm -r .docs
+
 cd $DOCC_BRANCH_NAME #move to worktree directory to create all files there
 
 # # Pretty print DocC JSON output so that it can be consistently diffed between commits
