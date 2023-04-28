@@ -28,8 +28,8 @@ pod "Async", :git => 'http://pubgi.fanapsoft.ir/chat/ios/chat-core.git', :tag =>
 ```
 <br/>
 
-## [Documentation](https://hamed8080.gitlab.io/chat-core/documentation/chatcore/)
-For more information about how to use ChatCore visit [Documentation](https://hamed8080.gitlab.io/chat-core/documentation/chatcore/) 
+## [Documentation](https://hamed8080.github.io/chat-core/documentation/chatcore/)
+For more information about how to use ChatCore visit [Documentation](https://hamed8080.github.io/chat-core/documentation/chatcore/) 
 <br/>
 
 ## Contributing to ChatCore
