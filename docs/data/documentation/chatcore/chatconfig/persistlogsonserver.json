@@ -1,0 +1,239 @@
+{
+  "abstract" : [
+    {
+      "text" : "Caution: If you enable this most errors and important logs of the SDK will store in Core Data",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and then they will send to the server by a queue.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/ChatCore\/documentation\/ChatCore",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfig"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfig\/persistLogsOnServer"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:8ChatCore0A6ConfigV19persistLogsOnServerSbvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "persistLogsOnServer"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ChatCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "persistLogsOnServer"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "persistLogsOnServer"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " { get }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/chatcore\/chatconfig\/persistlogsonserver"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://ChatCore/documentation/ChatCore": {
+  "abstract" : [
+    {
+      "text" : "ChatCore consist of base classes and enums as well as protocols.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore",
+  "images" : [
+    {
+      "identifier" : "icon.png",
+      "type" : "icon"
+    }
+  ],
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ChatCore",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfig": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatConfig"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfig",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatConfig"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatConfig",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfig"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfig/persistLogsOnServer": {
+  "abstract" : [
+    {
+      "text" : "Caution: If you enable this most errors and important logs of the SDK will store in Core Data",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and then they will send to the server by a queue.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "persistLogsOnServer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfig\/persistLogsOnServer",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "persistLogsOnServer",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfig\/persistlogsonserver"
+},
+"icon.png": {
+  "alt" : "App icon.",
+  "identifier" : "icon.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/icon.png"
+    }
+  ]
+}
+}
+}

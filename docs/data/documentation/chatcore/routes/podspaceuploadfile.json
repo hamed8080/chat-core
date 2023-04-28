@@ -1,0 +1,183 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/ChatCore\/documentation\/ChatCore",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/Routes"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/ChatCore\/documentation\/ChatCore\/Routes\/podspaceUploadFile"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:8ChatCore6RoutesO18podspaceUploadFileyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "podspaceUploadFile"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ChatCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "Routes.podspaceUploadFile"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "podspaceUploadFile"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/chatcore\/routes\/podspaceuploadfile"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://ChatCore/documentation/ChatCore": {
+  "abstract" : [
+    {
+      "text" : "ChatCore consist of base classes and enums as well as protocols.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore",
+  "images" : [
+    {
+      "identifier" : "icon.png",
+      "type" : "icon"
+    }
+  ],
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ChatCore",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore"
+},
+"doc://ChatCore/documentation/ChatCore/Routes": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Routes"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/Routes",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Routes"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Routes",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/routes"
+},
+"doc://ChatCore/documentation/ChatCore/Routes/podspaceUploadFile": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "podspaceUploadFile"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/Routes\/podspaceUploadFile",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Routes.podspaceUploadFile",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/routes\/podspaceuploadfile"
+},
+"icon.png": {
+  "alt" : "App icon.",
+  "identifier" : "icon.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/icon.png"
+    }
+  ]
+}
+}
+}

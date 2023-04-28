@@ -1,0 +1,155 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/ChatCore\/documentation\/ChatCore",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatErrorType"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatErrorType\/Identifiable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "ChatCore"
+      }
+    ],
+    "role" : "collectionGroup",
+    "title" : "Identifiable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatErrorType\/id-6brj3"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/chatcore\/chaterrortype\/identifiable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://ChatCore/documentation/ChatCore": {
+  "abstract" : [
+    {
+      "text" : "ChatCore consist of base classes and enums as well as protocols.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore",
+  "images" : [
+    {
+      "identifier" : "icon.png",
+      "type" : "icon"
+    }
+  ],
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ChatCore",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore"
+},
+"doc://ChatCore/documentation/ChatCore/ChatErrorType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatErrorType"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatErrorType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatErrorType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatErrorType",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chaterrortype"
+},
+"doc://ChatCore/documentation/ChatCore/ChatErrorType/id-6brj3": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SO",
+      "text" : "ObjectIdentifier"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatErrorType\/id-6brj3",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chaterrortype\/id-6brj3"
+},
+"icon.png": {
+  "alt" : "App icon.",
+  "identifier" : "icon.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/icon.png"
+    }
+  ]
+}
+}
+}

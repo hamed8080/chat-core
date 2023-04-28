@@ -1,0 +1,2437 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Classes",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/asyncchatservermessage\/init(chatmessage:peername:)",
+                "title" : "init(chatMessage: SendChatMessageVO, peerName: String?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/asyncchatservermessage\/asyncmessagetype",
+                "title" : "var asyncMessageType: AsyncMessageTypes?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/asyncchatservermessage\/chatmessage",
+                "title" : "var chatMessage: SendChatMessageVO",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/asyncchatservermessage\/content",
+                "title" : "var content: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/asyncchatservermessage\/peername",
+                "title" : "var peerName: String?",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/asyncchatservermessage\/data",
+                    "title" : "var data: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/asyncchatservermessage\/dataprettyprint",
+                    "title" : "var dataPrettyPrint: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/asyncchatservermessage\/jsonstring",
+                    "title" : "var jsonString: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/asyncchatservermessage\/parameterdata",
+                    "title" : "var parameterData: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/asyncchatservermessage\/string",
+                    "title" : "var string: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/asyncchatservermessage\/asdictionary()",
+                    "title" : "func asDictionary() throws -> [String : Any]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/asyncchatservermessage\/asdictionarynuallable()",
+                    "title" : "func asDictionaryNuallable() throws -> [String : Any?]",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/asyncchatservermessage\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/asyncchatservermessage",
+            "title" : "AsyncChatServerMessage",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/banerror\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/banerror\/duration",
+                "title" : "let duration: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/banerror\/errormessage",
+                "title" : "let errorMessage: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/banerror\/uniqueid",
+                "title" : "let uniqueId: String?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/banerror",
+            "title" : "BanError",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/barechatsendablerequest\/chatmessagetype",
+                "title" : "var chatMessageType: ChatMessageVOTypes",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/barechatsendablerequest\/content",
+                "title" : "var content: String?",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/barechatsendablerequest\/data",
+                    "title" : "var data: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/barechatsendablerequest\/dataprettyprint",
+                    "title" : "var dataPrettyPrint: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/barechatsendablerequest\/jsonstring",
+                    "title" : "var jsonString: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/barechatsendablerequest\/parameterdata",
+                    "title" : "var parameterData: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/barechatsendablerequest\/string",
+                    "title" : "var string: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/barechatsendablerequest\/asdictionary()",
+                    "title" : "func asDictionary() throws -> [String : Any]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/barechatsendablerequest\/asdictionarynuallable()",
+                    "title" : "func asDictionaryNuallable() throws -> [String : Any?]",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/barechatsendablerequest\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/barechatsendablerequest",
+            "title" : "BareChatSendableRequest",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/init(_:)",
+                "title" : "init(AsyncConfig)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/appgroup(_:)",
+                "title" : "func appGroup(String) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/build()",
+                "title" : "func build() -> ChatConfig",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/cachetimestampinsec(_:)",
+                "title" : "func cacheTimeStampInSec(Int) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/devieclimitationspacemb(_:)",
+                "title" : "func deviecLimitationSpaceMB(Int64) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/enablecache(_:)",
+                "title" : "func enableCache(Bool) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/fileserver(_:)",
+                "title" : "func fileServer(String) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/getdeviceidfromtoken(_:)",
+                "title" : "func getDeviceIdFromToken(Bool) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/httprequesttimeout(_:)",
+                "title" : "func httpRequestTimeout(Int) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/localfilecustompath(_:)",
+                "title" : "func localFileCustomPath(URL?) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/localimagecustompath(_:)",
+                "title" : "func localImageCustomPath(URL?) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/loggerconfig(_:)",
+                "title" : "func loggerConfig(LoggerConfig) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/mapapikey(_:)",
+                "title" : "func mapApiKey(String?) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/mapserver(_:)",
+                "title" : "func mapServer(String) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/maxreconnecttimeinterval(_:)",
+                "title" : "func maxReconnectTimeInterval(Int) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/msgpriority(_:)",
+                "title" : "func msgPriority(Int) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/msgttl(_:)",
+                "title" : "func msgTTL(Int) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/persistlogsonserver(_:)",
+                "title" : "func persistLogsOnServer(Bool) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/platformhost(_:)",
+                "title" : "func platformHost(String) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/podspacefileserveraddress(_:)",
+                "title" : "func podSpaceFileServerAddress(String) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/ssohost(_:)",
+                "title" : "func ssoHost(String) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/token(_:)",
+                "title" : "func token(String) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/typecode(_:)",
+                "title" : "func typeCode(String) -> ChatConfigBuilder",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfigbuilder\/wsconnectionwaittime(_:)",
+                "title" : "func wsConnectionWaitTime(Double) -> ChatConfigBuilder",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/chatconfigbuilder",
+            "title" : "ChatConfigBuilder",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/pagination\/init(hasnext:count:offset:)",
+                "title" : "init(hasNext: Bool, count: Int, offset: Int)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/pagination\/count",
+                "title" : "var count: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/pagination\/hasnext",
+                "title" : "var hasNext: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/pagination\/offset",
+                "title" : "var offset: Int",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/pagination",
+            "title" : "Pagination",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/paginationwithcontentcount\/init(hasnext:count:offset:totalcount:)",
+                "title" : "init(hasNext: Bool, count: Int, offset: Int, totalCount: Int?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/paginationwithcontentcount\/nextoffset",
+                "title" : "var nextOffset: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/paginationwithcontentcount\/totalcount",
+                "title" : "var totalCount: Int",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/paginationwithcontentcount",
+            "title" : "PaginationWithContentCount",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/uniqueidmanagerrequest\/init(uniqueid:)",
+                "title" : "init(uniqueId: String?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/uniqueidmanagerrequest\/isautogenrateduniqueid",
+                "title" : "var isAutoGenratedUniqueId: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/uniqueidmanagerrequest\/uniqueid",
+                "title" : "var uniqueId: String",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/uniqueidmanagerrequest",
+            "title" : "UniqueIdManagerRequest",
+            "type" : "class"
+          },
+          {
+            "title" : "Protocols",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/asyncsnedable\/asyncmessagetype",
+                "title" : "var asyncMessageType: AsyncMessageTypes?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/asyncsnedable\/content",
+                "title" : "var content: String?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/asyncsnedable",
+            "title" : "AsyncSnedable",
+            "type" : "protocol"
+          },
+          {
+            "path" : "\/documentation\/chatcore\/bodyrequestprotocol",
+            "title" : "BodyRequestProtocol",
+            "type" : "protocol"
+          },
+          {
+            "path" : "\/documentation\/chatcore\/cachemanagerprotocol",
+            "title" : "CacheManagerProtocol",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatsendable\/chatmessagetype",
+                "title" : "var chatMessageType: ChatMessageVOTypes",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatsendable\/content",
+                "title" : "var content: String?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/chatsendable",
+            "title" : "ChatSendable",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetypeprotocol\/messagetype",
+                "title" : "var messageType: MessageType",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/messagetypeprotocol",
+            "title" : "MessageTypeProtocol",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/metadataprotocol\/metadata",
+                "title" : "var metadata: String?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/metadataprotocol",
+            "title" : "MetadataProtocol",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/peernameprotocol\/peername",
+                "title" : "var peerName: String?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/peernameprotocol",
+            "title" : "PeerNameProtocol",
+            "type" : "protocol"
+          },
+          {
+            "path" : "\/documentation\/chatcore\/plaintextsendable",
+            "title" : "PlainTextSendable",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/queueable\/queuetime",
+                "title" : "var queueTime: Date",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/queueable",
+            "title" : "Queueable",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/replyprotocol\/repliedto",
+                "title" : "var repliedTo: Int?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/replyprotocol",
+            "title" : "ReplyProtocol",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/subjectprotocol\/subjectid",
+                "title" : "var subjectId: Int",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/subjectprotocol",
+            "title" : "SubjectProtocol",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/systemtmetadataprotocol\/systemmetadata",
+                "title" : "var systemMetadata: String?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/systemtmetadataprotocol",
+            "title" : "SystemtMetadataProtocol",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/uniqueidprotocol\/uniqueid",
+                "title" : "var uniqueId: String",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/uniqueidprotocol",
+            "title" : "UniqueIdProtocol",
+            "type" : "protocol"
+          },
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/init(asyncconfig:token:ssohost:platformhost:fileserver:podspacefileserveraddress:mapapikey:mapserver:typecode:enablecache:cachetimestampinsec:msgpriority:msgttl:httprequesttimeout:wsconnectionwaittime:persistlogsonserver:maxreconnecttimeint-9r1v3",
+                "title" : "init(asyncConfig: AsyncConfig, token: String, ssoHost: String, platformHost: String, fileServer: String, podSpaceFileServerAddress: String, mapApiKey: String?, mapServer: String, typeCode: String, enableCache: Bool, cacheTimeStampInSec: Int, msgPriority: Int, msgTTL: Int, httpRequestTimeout: Int, wsConnectionWaitTime: Double, persistLogsOnServer: Bool, maxReconnectTimeInterval: Int, localImageCustomPath: URL?, localFileCustomPath: URL?, deviecLimitationSpaceMB: Int64, getDeviceIdFromToken: Bool, appGroup: String?, loggerConfig: LoggerConfig)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/appgroup",
+                "title" : "var appGroup: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/asyncconfig",
+                "title" : "var asyncConfig: AsyncConfig",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/cachetimestampinsec",
+                "title" : "var cacheTimeStampInSec: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/devieclimitationspacemb",
+                "title" : "var deviecLimitationSpaceMB: Int64",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/enablecache",
+                "title" : "var enableCache: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/fileserver",
+                "title" : "var fileServer: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/getdeviceidfromtoken",
+                "title" : "var getDeviceIdFromToken: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/httprequesttimeout",
+                "title" : "var httpRequestTimeout: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/localfilecustompath",
+                "title" : "var localFileCustomPath: URL?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/localimagecustompath",
+                "title" : "var localImageCustomPath: URL?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/loggerconfig",
+                "title" : "var loggerConfig: LoggerConfig",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/mapapikey",
+                "title" : "var mapApiKey: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/mapserver",
+                "title" : "var mapServer: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/maxreconnecttimeinterval",
+                "title" : "var maxReconnectTimeInterval: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/msgpriority",
+                "title" : "var msgPriority: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/msgttl",
+                "title" : "var msgTTL: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/persistlogsonserver",
+                "title" : "var persistLogsOnServer: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/platformhost",
+                "title" : "var platformHost: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/podspacefileserveraddress",
+                "title" : "var podSpaceFileServerAddress: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/ssohost",
+                "title" : "var ssoHost: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/token",
+                "title" : "var token: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/typecode",
+                "title" : "var typeCode: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/wsconnectionwaittime",
+                "title" : "var wsConnectionWaitTime: Double",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatconfig\/updatetoken(_:)",
+                "title" : "func updateToken(String)",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatconfig\/data",
+                    "title" : "var data: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatconfig\/dataprettyprint",
+                    "title" : "var dataPrettyPrint: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatconfig\/jsonstring",
+                    "title" : "var jsonString: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatconfig\/parameterdata",
+                    "title" : "var parameterData: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatconfig\/string",
+                    "title" : "var string: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatconfig\/asdictionary()",
+                    "title" : "func asDictionary() throws -> [String : Any]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatconfig\/asdictionarynuallable()",
+                    "title" : "func asDictionaryNuallable() throws -> [String : Any?]",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/chatconfig\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/chatconfig",
+            "title" : "ChatConfig",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterror\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterror\/init(message:code:haserror:content:)",
+                "title" : "init(message: String?, code: Int?, hasError: Bool?, content: String?)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterror\/init(type:code:message:userinfo:rawerror:content:)",
+                "title" : "init(type: ChatErrorType, code: Int?, message: String?, userInfo: [String : Any]?, rawError: Error?, content: String?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterror\/banerror",
+                "title" : "var banError: BanError?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterror\/code",
+                "title" : "var code: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterror\/content",
+                "title" : "var content: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterror\/haserror",
+                "title" : "var hasError: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterror\/message",
+                "title" : "var message: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterror\/rawerror",
+                "title" : "var rawError: Error?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterror\/type",
+                "title" : "var type: ChatErrorType",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterror\/userinfo",
+                "title" : "var userInfo: [String : Any]?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/chaterror",
+            "title" : "ChatError",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatresponse\/init(uniqueid:result:error:contentcount:pagination:subjectid:time:)",
+                "title" : "init(uniqueId: String?, result: T?, error: ChatError?, contentCount: Int?, pagination: Pagination?, subjectId: Int?, time: Int?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatresponse\/contentcount",
+                "title" : "var contentCount: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatresponse\/error",
+                "title" : "var error: ChatError?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatresponse\/pagination",
+                "title" : "var pagination: Pagination?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatresponse\/result",
+                "title" : "var result: T?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatresponse\/subjectid",
+                "title" : "var subjectId: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatresponse\/time",
+                "title" : "var time: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatresponse\/uniqueid",
+                "title" : "var uniqueId: String?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/chatresponse",
+            "title" : "ChatResponse",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/init(req:token:typecode:)",
+                "title" : "init(req: ChatSendable, token: String, typeCode: String)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/init(type:token:content:messagetype:metadata:repliedto:systemmetadata:subjectid:tokenissuer:typecode:uniqueid:)",
+                "title" : "init(type: Int, token: String, content: String?, messageType: Int?, metadata: String?, repliedTo: Int?, systemMetadata: String?, subjectId: Int?, tokenIssuer: Int, typeCode: String?, uniqueId: String?)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/init(with:)-7tkgx",
+                "title" : "init?(with: AsyncMessage?)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/init(with:)-9mcqa",
+                "title" : "init?(with: Data?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/content",
+                "title" : "var content: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/messagetype",
+                "title" : "var messageType: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/metadata",
+                "title" : "var metadata: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/repliedto",
+                "title" : "var repliedTo: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/subjectid",
+                "title" : "var subjectId: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/systemmetadata",
+                "title" : "var systemMetadata: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/token",
+                "title" : "let token: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/tokenissuer",
+                "title" : "var tokenIssuer: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/type",
+                "title" : "let type: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/typecode",
+                "title" : "var typeCode: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/uniqueid",
+                "title" : "var uniqueId: String?",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/sendchatmessagevo\/data",
+                    "title" : "var data: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/sendchatmessagevo\/dataprettyprint",
+                    "title" : "var dataPrettyPrint: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/sendchatmessagevo\/jsonstring",
+                    "title" : "var jsonString: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/sendchatmessagevo\/parameterdata",
+                    "title" : "var parameterData: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/sendchatmessagevo\/string",
+                    "title" : "var string: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/sendchatmessagevo\/asdictionary()",
+                    "title" : "func asDictionary() throws -> [String : Any]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/sendchatmessagevo\/asdictionarynuallable()",
+                    "title" : "func asDictionaryNuallable() throws -> [String : Any?]",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/sendchatmessagevo\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/sendchatmessagevo",
+            "title" : "SendChatMessageVO",
+            "type" : "struct"
+          },
+          {
+            "title" : "Enumerations",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterrortype\/asyncerror",
+                "title" : "case asyncError",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterrortype\/errorraedychat",
+                "title" : "case errorRaedyChat",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterrortype\/exporterror",
+                "title" : "case exportError",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterrortype\/networkerror",
+                "title" : "case networkError",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterrortype\/outofstorage",
+                "title" : "case outOfStorage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterrortype\/undefined",
+                "title" : "case undefined",
+                "type" : "case"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterrortype\/init(rawvalue:)",
+                "title" : "init?(rawValue: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chaterrortype\/id-8iovc",
+                "title" : "var id: ChatErrorType",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chaterrortype\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/chaterrortype\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chaterrortype\/id-6brj3",
+                    "title" : "var id: ObjectIdentifier",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/chaterrortype\/identifiable-implementations",
+                "title" : "Identifiable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chaterrortype\/hashvalue",
+                    "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chaterrortype\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/chaterrortype\/rawrepresentable-implementations",
+                "title" : "RawRepresentable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/chaterrortype",
+            "title" : "ChatErrorType",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/addparticipant",
+                "title" : "case addParticipant",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/addtagparticipants",
+                "title" : "case addTagParticipants",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/allunreadmessagecount",
+                "title" : "case allUnreadMessageCount",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/archivethread",
+                "title" : "case archiveThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/block",
+                "title" : "case block",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/blockassistant",
+                "title" : "case blockAssistant",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/blockedassistnts",
+                "title" : "case blockedAssistnts",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/botmessage",
+                "title" : "case botMessage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/changethreadtype",
+                "title" : "case changeThreadType",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/changetype",
+                "title" : "case changeType",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/clearhistory",
+                "title" : "case clearHistory",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/closethread",
+                "title" : "case closeThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/contactsynced",
+                "title" : "case contactSynced",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/contactslastseen",
+                "title" : "case contactsLastSeen",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/createbot",
+                "title" : "case createBot",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/createtag",
+                "title" : "case createTag",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/createthread",
+                "title" : "case createThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/deacticveassistant",
+                "title" : "case deacticveAssistant",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/definebotcommand",
+                "title" : "case defineBotCommand",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/deletemessage",
+                "title" : "case deleteMessage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/deletetag",
+                "title" : "case deleteTag",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/deletethread",
+                "title" : "case deleteThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/delivery",
+                "title" : "case delivery",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/editmessage",
+                "title" : "case editMessage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/edittag",
+                "title" : "case editTag",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/error",
+                "title" : "case error",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/exportchats",
+                "title" : "case exportChats",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/forwardmessage",
+                "title" : "case forwardMessage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/getassistanthistory",
+                "title" : "case getAssistantHistory",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/getassistants",
+                "title" : "case getAssistants",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/getblocked",
+                "title" : "case getBlocked",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/getcontacts",
+                "title" : "case getContacts",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/getcurrentuserroles",
+                "title" : "case getCurrentUserRoles",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/gethistory",
+                "title" : "case getHistory",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/getmessageseenparticipants",
+                "title" : "case getMessageSeenParticipants",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/getnotseenduration",
+                "title" : "case getNotSeenDuration",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/getreportreasons",
+                "title" : "case getReportReasons",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/getstatus",
+                "title" : "case getStatus",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/gettagparticipants",
+                "title" : "case getTagParticipants",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/getthreads",
+                "title" : "case getThreads",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/getuserbots",
+                "title" : "case getUserBots",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/isnameavailable",
+                "title" : "case isNameAvailable",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/jointhread",
+                "title" : "case joinThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/lastmessagedeleted",
+                "title" : "case lastMessageDeleted",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/lastmessageedited",
+                "title" : "case lastMessageEdited",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/lastmssageseenupdated",
+                "title" : "case lastMssageSeenUpdated",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/leavethread",
+                "title" : "case leaveThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/logout",
+                "title" : "case logout",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/message",
+                "title" : "case message",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/messagedeliveredtoparticipants",
+                "title" : "case messageDeliveredToParticipants",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/mutethread",
+                "title" : "case muteThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/mutualgroups",
+                "title" : "case mutualGroups",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/pinmessage",
+                "title" : "case pinMessage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/pinthread",
+                "title" : "case pinThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/ping",
+                "title" : "case ping",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/registerassistant",
+                "title" : "case registerAssistant",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/relationinfo",
+                "title" : "case relationInfo",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/removebotcommands",
+                "title" : "case removeBotCommands",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/removeparticipant",
+                "title" : "case removeParticipant",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/removerolefromuser",
+                "title" : "case removeRoleFromUser",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/removetagparticipants",
+                "title" : "case removeTagParticipants",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/removedfromthread",
+                "title" : "case removedFromThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/rename",
+                "title" : "case rename",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/reportmessage",
+                "title" : "case reportMessage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/reportthread",
+                "title" : "case reportThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/reportuser",
+                "title" : "case reportUser",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/seen",
+                "title" : "case seen",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/sent",
+                "title" : "case sent",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/setprofile",
+                "title" : "case setProfile",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/setruletouser",
+                "title" : "case setRuleToUser",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/spampvthread",
+                "title" : "case spamPvThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/startbot",
+                "title" : "case startBot",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/statusping",
+                "title" : "case statusPing",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/stopbot",
+                "title" : "case stopBot",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/systemmessage",
+                "title" : "case systemMessage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/taglist",
+                "title" : "case tagList",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/threadcontactnameupdated",
+                "title" : "case threadContactNameUpdated",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/threadparticipants",
+                "title" : "case threadParticipants",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/threadsunreadcount",
+                "title" : "case threadsUnreadCount",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/unarchivethread",
+                "title" : "case unarchiveThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/unblock",
+                "title" : "case unblock",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/unblockassistant",
+                "title" : "case unblockAssistant",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/unknown",
+                "title" : "case unknown",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/unmutethread",
+                "title" : "case unmuteThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/unpinmessage",
+                "title" : "case unpinMessage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/unpinthread",
+                "title" : "case unpinThread",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/updatethreadinfo",
+                "title" : "case updateThreadInfo",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/userinfo",
+                "title" : "case userInfo",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/userstatus",
+                "title" : "case userStatus",
+                "type" : "case"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/init(rawvalue:)",
+                "title" : "init?(rawValue: Int)",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/init(from:)-529ga",
+                    "title" : "init(from: Decoder) throws",
+                    "type" : "init"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/data",
+                    "title" : "var data: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/dataprettyprint",
+                    "title" : "var dataPrettyPrint: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/jsonstring",
+                    "title" : "var jsonString: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/parameterdata",
+                    "title" : "var parameterData: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/string",
+                    "title" : "var string: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/asdictionary()",
+                    "title" : "func asDictionary() throws -> [String : Any]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/asdictionarynuallable()",
+                    "title" : "func asDictionaryNuallable() throws -> [String : Any?]",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/init(from:)-4ail9",
+                    "title" : "init(from: Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/hashvalue",
+                    "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/encode(to:)",
+                    "title" : "func encode(to: Encoder) throws",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatmessagevotypes\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/chatmessagevotypes\/rawrepresentable-implementations",
+                "title" : "RawRepresentable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/chatmessagevotypes",
+            "title" : "ChatMessageVOTypes",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatstate\/asyncready",
+                "title" : "case asyncReady",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatstate\/chatready",
+                "title" : "case chatReady",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatstate\/closed",
+                "title" : "case closed",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatstate\/connected",
+                "title" : "case connected",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatstate\/connecting",
+                "title" : "case connecting",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatstate\/uninitialized",
+                "title" : "case uninitialized",
+                "type" : "case"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatstate\/init(rawvalue:)",
+                "title" : "init?(rawValue: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/chatstate\/id-4nbvm",
+                "title" : "var id: ChatState",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatstate\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/chatstate\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatstate\/id-4ltpp",
+                    "title" : "var id: ObjectIdentifier",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/chatstate\/identifiable-implementations",
+                "title" : "Identifiable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatstate\/hashvalue",
+                    "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/chatstate\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/chatstate\/rawrepresentable-implementations",
+                "title" : "RawRepresentable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/chatstate",
+            "title" : "ChatState",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/endcall",
+                "title" : "case endCall",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/file",
+                "title" : "case file",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/link",
+                "title" : "case link",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/location",
+                "title" : "case location",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/participantjoin",
+                "title" : "case participantJoin",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/participantleft",
+                "title" : "case participantLeft",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/picture",
+                "title" : "case picture",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/podspacefile",
+                "title" : "case podSpaceFile",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/podspacepicture",
+                "title" : "case podSpacePicture",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/podspacesound",
+                "title" : "case podSpaceSound",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/podspacevideo",
+                "title" : "case podSpaceVideo",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/podspacevoice",
+                "title" : "case podSpaceVoice",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/sound",
+                "title" : "case sound",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/startcall",
+                "title" : "case startCall",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/sticker",
+                "title" : "case sticker",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/text",
+                "title" : "case text",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/unknown",
+                "title" : "case unknown",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/video",
+                "title" : "case video",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/voice",
+                "title" : "case voice",
+                "type" : "case"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/init(rawvalue:)",
+                "title" : "init?(rawValue: Int)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/messagetype\/id-7dnzu",
+                "title" : "var id: MessageType",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/init(from:)-4y789",
+                    "title" : "init(from: Decoder) throws",
+                    "type" : "init"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/messagetype\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/data",
+                    "title" : "var data: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/dataprettyprint",
+                    "title" : "var dataPrettyPrint: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/jsonstring",
+                    "title" : "var jsonString: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/parameterdata",
+                    "title" : "var parameterData: Data?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/string",
+                    "title" : "var string: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/asdictionary()",
+                    "title" : "func asDictionary() throws -> [String : Any]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/asdictionarynuallable()",
+                    "title" : "func asDictionaryNuallable() throws -> [String : Any?]",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/messagetype\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/messagetype\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/id-1w0hg",
+                    "title" : "var id: ObjectIdentifier",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/messagetype\/identifiable-implementations",
+                "title" : "Identifiable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/init(from:)-8dc7t",
+                    "title" : "init(from: Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/hashvalue",
+                    "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/encode(to:)",
+                    "title" : "func encode(to: Encoder) throws",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/messagetype\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/messagetype\/rawrepresentable-implementations",
+                "title" : "RawRepresentable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/messagetype",
+            "title" : "MessageType",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/addcontacts",
+                "title" : "case addContacts",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/drivedownloadfile",
+                "title" : "case driveDownloadFile",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/drivedownloadimage",
+                "title" : "case driveDownloadImage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/driveuploadfilefromurl",
+                "title" : "case driveUploadFileFromUrl",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/files",
+                "title" : "case files",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/getfile",
+                "title" : "case getFile",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/getimage",
+                "title" : "case getImage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/images",
+                "title" : "case images",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/mapreverse",
+                "title" : "case mapReverse",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/maprouting",
+                "title" : "case mapRouting",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/mapsearch",
+                "title" : "case mapSearch",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/mapstaticimage",
+                "title" : "case mapStaticImage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/podspacepublicuploadfile",
+                "title" : "case podspacePublicUploadFile",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/podspacepublicuploadimage",
+                "title" : "case podspacePublicUploadImage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/podspaceuploadfile",
+                "title" : "case podspaceUploadFile",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/podspaceuploadimage",
+                "title" : "case podspaceUploadImage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/removecontacts",
+                "title" : "case removeContacts",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/searchcontacts",
+                "title" : "case searchContacts",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/ssodevices",
+                "title" : "case ssoDevices",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/ssogeneratekey",
+                "title" : "case ssoGenerateKey",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/ssogetkey",
+                "title" : "case ssoGetKey",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/updatecontacts",
+                "title" : "case updateContacts",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/uploadfile",
+                "title" : "case uploadFile",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/uploadfilewithusergroup",
+                "title" : "case uploadFileWithUserGroup",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/uploadimage",
+                "title" : "case uploadImage",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/uploadimagewithusergroup",
+                "title" : "case uploadImageWithUserGroup",
+                "type" : "case"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/chatcore\/routes\/init(rawvalue:)",
+                "title" : "init?(rawValue: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/routes\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/routes\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/routes\/hashvalue",
+                    "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/chatcore\/routes\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/chatcore\/routes\/rawrepresentable-implementations",
+                "title" : "RawRepresentable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/chatcore\/routes",
+            "title" : "Routes",
+            "type" : "enum"
+          }
+        ],
+        "icon" : "icon.png",
+        "path" : "\/documentation\/chatcore",
+        "title" : "ChatCore",
+        "type" : "module"
+      }
+    ]
+  },
+  "references" : {
+    "icon.png" : {
+      "alt" : "App icon.",
+      "identifier" : "icon.png",
+      "type" : "image",
+      "variants" : [
+        {
+          "traits" : [
+            "1x",
+            "light"
+          ],
+          "url" : "\/images\/icon.png"
+        }
+      ]
+    }
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 1
+  }
+}

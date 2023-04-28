@@ -1,0 +1,1217 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/ChatCore\/documentation\/ChatCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:8ChatCore0A13ConfigBuilderC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ChatConfigBuilder"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ChatCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ChatConfigBuilder"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "ChatConfigBuilder"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ChatConfigBuilder"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/init(_:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/appGroup(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/build()",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/cacheTimeStampInSec(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/deviecLimitationSpaceMB(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/enableCache(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/fileServer(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/getDeviceIdFromToken(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/httpRequestTimeout(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/localFileCustomPath(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/localImageCustomPath(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/loggerConfig(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/mapApiKey(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/mapServer(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/maxReconnectTimeInterval(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/msgPriority(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/msgTTL(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/persistLogsOnServer(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/platformHost(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/podSpaceFileServerAddress(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/ssoHost(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/token(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/typeCode(_:)",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/wsConnectionWaitTime(_:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/chatcore\/chatconfigbuilder"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://ChatCore/documentation/ChatCore": {
+  "abstract" : [
+    {
+      "text" : "ChatCore consist of base classes and enums as well as protocols.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore",
+  "images" : [
+    {
+      "identifier" : "icon.png",
+      "type" : "icon"
+    }
+  ],
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ChatCore",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatConfigBuilder",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/appGroup(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appGroup"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/appGroup(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appGroup(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/appgroup(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/build()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "build"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A6ConfigV",
+      "text" : "ChatConfig"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/build()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "build()",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/build()"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/cacheTimeStampInSec(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cacheTimeStampInSec"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/cacheTimeStampInSec(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cacheTimeStampInSec(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/cachetimestampinsec(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/deviecLimitationSpaceMB(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deviecLimitationSpaceMB"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int64V",
+      "text" : "Int64"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/deviecLimitationSpaceMB(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deviecLimitationSpaceMB(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/devieclimitationspacemb(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/enableCache(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "enableCache"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/enableCache(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "enableCache(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/enablecache(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/fileServer(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fileServer"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/fileServer(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fileServer(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/fileserver(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/getDeviceIdFromToken(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getDeviceIdFromToken"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/getDeviceIdFromToken(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getDeviceIdFromToken(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/getdeviceidfromtoken(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/httpRequestTimeout(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "httpRequestTimeout"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/httpRequestTimeout(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "httpRequestTimeout(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/httprequesttimeout(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/init(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5Async0A6ConfigV",
+      "text" : "AsyncConfig"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/init(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/init(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/localFileCustomPath(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "localFileCustomPath"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/localFileCustomPath(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "localFileCustomPath(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/localfilecustompath(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/localImageCustomPath(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "localImageCustomPath"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/localImageCustomPath(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "localImageCustomPath(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/localimagecustompath(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/loggerConfig(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loggerConfig"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Logger0A6ConfigV",
+      "text" : "LoggerConfig"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/loggerConfig(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "loggerConfig(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/loggerconfig(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/mapApiKey(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapApiKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/mapApiKey(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mapApiKey(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/mapapikey(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/mapServer(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapServer"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/mapServer(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mapServer(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/mapserver(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/maxReconnectTimeInterval(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "maxReconnectTimeInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/maxReconnectTimeInterval(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "maxReconnectTimeInterval(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/maxreconnecttimeinterval(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/msgPriority(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "msgPriority"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/msgPriority(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "msgPriority(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/msgpriority(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/msgTTL(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "msgTTL"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/msgTTL(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "msgTTL(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/msgttl(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/persistLogsOnServer(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "persistLogsOnServer"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/persistLogsOnServer(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "persistLogsOnServer(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/persistlogsonserver(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/platformHost(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "platformHost"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/platformHost(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "platformHost(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/platformhost(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/podSpaceFileServerAddress(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "podSpaceFileServerAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/podSpaceFileServerAddress(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "podSpaceFileServerAddress(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/podspacefileserveraddress(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/ssoHost(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ssoHost"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/ssoHost(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ssoHost(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/ssohost(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/token(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "token"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/token(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "token(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/token(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/typeCode(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "typeCode"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/typeCode(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "typeCode(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/typecode(_:)"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder/wsConnectionWaitTime(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wsConnectionWaitTime"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8ChatCore0A13ConfigBuilderC",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder\/wsConnectionWaitTime(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "wsConnectionWaitTime(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder\/wsconnectionwaittime(_:)"
+},
+"icon.png": {
+  "alt" : "App icon.",
+  "identifier" : "icon.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/icon.png"
+    }
+  ]
+}
+}
+}

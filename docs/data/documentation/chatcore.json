@@ -1,0 +1,1072 @@
+{
+  "abstract" : [
+    {
+      "text" : "ChatCore consist of base classes and enums as well as protocols.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/ChatCore\/documentation\/ChatCore"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "ChatCore",
+    "images" : [
+      {
+        "identifier" : "icon.png",
+        "type" : "icon"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ChatCore"
+      }
+    ],
+    "platforms" : [
+      {
+        "introducedAt" : "10.0",
+        "name" : "iOS"
+      },
+      {
+        "introducedAt" : "12",
+        "name" : "macOS"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "ChatCore"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/AsyncChatServerMessage",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/BanError",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/BareChatSendableRequest",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/Pagination",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/PaginationWithContentCount",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/UniqueIdManagerRequest"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/AsyncSnedable",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/BodyRequestProtocol",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/CacheManagerProtocol",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatSendable",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/MessageTypeProtocol",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/MetadataProtocol",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/PeerNameProtocol",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/PlainTextSendable",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/Queueable",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ReplyProtocol",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/SubjectProtocol",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/SystemtMetadataProtocol",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/UniqueIdProtocol"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfig",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatError",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatResponse",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/SendChatMessageVO"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatErrorType",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatMessageVOTypes",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatState",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/MessageType",
+        "doc:\/\/ChatCore\/documentation\/ChatCore\/Routes"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/chatcore"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://ChatCore/documentation/ChatCore": {
+  "abstract" : [
+    {
+      "text" : "ChatCore consist of base classes and enums as well as protocols.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore",
+  "images" : [
+    {
+      "identifier" : "icon.png",
+      "type" : "icon"
+    }
+  ],
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ChatCore",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore"
+},
+"doc://ChatCore/documentation/ChatCore/AsyncChatServerMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AsyncChatServerMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/AsyncChatServerMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AsyncChatServerMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncChatServerMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/asyncchatservermessage"
+},
+"doc://ChatCore/documentation/ChatCore/AsyncSnedable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AsyncSnedable"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/AsyncSnedable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AsyncSnedable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncSnedable",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/asyncsnedable"
+},
+"doc://ChatCore/documentation/ChatCore/BanError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BanError"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/BanError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BanError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BanError",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/banerror"
+},
+"doc://ChatCore/documentation/ChatCore/BareChatSendableRequest": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BareChatSendableRequest"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/BareChatSendableRequest",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BareChatSendableRequest"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BareChatSendableRequest",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/barechatsendablerequest"
+},
+"doc://ChatCore/documentation/ChatCore/BodyRequestProtocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BodyRequestProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/BodyRequestProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BodyRequestProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BodyRequestProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/bodyrequestprotocol"
+},
+"doc://ChatCore/documentation/ChatCore/CacheManagerProtocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CacheManagerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/CacheManagerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CacheManagerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CacheManagerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/cachemanagerprotocol"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfig": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatConfig"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfig",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatConfig"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatConfig",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfig"
+},
+"doc://ChatCore/documentation/ChatCore/ChatConfigBuilder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatConfigBuilder",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatConfigBuilder"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatConfigBuilder",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatconfigbuilder"
+},
+"doc://ChatCore/documentation/ChatCore/ChatError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatError"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatError",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chaterror"
+},
+"doc://ChatCore/documentation/ChatCore/ChatErrorType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatErrorType"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatErrorType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatErrorType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatErrorType",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chaterrortype"
+},
+"doc://ChatCore/documentation/ChatCore/ChatMessageVOTypes": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatMessageVOTypes"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatMessageVOTypes",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatMessageVOTypes"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatMessageVOTypes",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatmessagevotypes"
+},
+"doc://ChatCore/documentation/ChatCore/ChatResponse": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatResponse"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatResponse",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatResponse"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatResponse",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatresponse"
+},
+"doc://ChatCore/documentation/ChatCore/ChatSendable": {
+  "abstract" : [
+    {
+      "text" : "If a message is marked as Chat Sendable, it will send the data to the async server and chat server afterward.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatSendable"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatSendable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatSendable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatSendable",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatsendable"
+},
+"doc://ChatCore/documentation/ChatCore/ChatState": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatState"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ChatState",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatState"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatState",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/chatstate"
+},
+"doc://ChatCore/documentation/ChatCore/MessageType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MessageType"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/MessageType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MessageType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MessageType",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/messagetype"
+},
+"doc://ChatCore/documentation/ChatCore/MessageTypeProtocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MessageTypeProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/MessageTypeProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MessageTypeProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MessageTypeProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/messagetypeprotocol"
+},
+"doc://ChatCore/documentation/ChatCore/MetadataProtocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MetadataProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/MetadataProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MetadataProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MetadataProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/metadataprotocol"
+},
+"doc://ChatCore/documentation/ChatCore/Pagination": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Pagination"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/Pagination",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Pagination"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Pagination",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/pagination"
+},
+"doc://ChatCore/documentation/ChatCore/PaginationWithContentCount": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PaginationWithContentCount"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/PaginationWithContentCount",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PaginationWithContentCount"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PaginationWithContentCount",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/paginationwithcontentcount"
+},
+"doc://ChatCore/documentation/ChatCore/PeerNameProtocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PeerNameProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/PeerNameProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PeerNameProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PeerNameProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/peernameprotocol"
+},
+"doc://ChatCore/documentation/ChatCore/PlainTextSendable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PlainTextSendable"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/PlainTextSendable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PlainTextSendable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PlainTextSendable",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/plaintextsendable"
+},
+"doc://ChatCore/documentation/ChatCore/Queueable": {
+  "abstract" : [
+    {
+      "text" : "If a message is marked as Queueable, it can be resent automatically by SDK whenever chat is in ",
+      "type" : "text"
+    },
+    {
+      "code" : "chatReady",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " state.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Queueable"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/Queueable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Queueable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Queueable",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/queueable"
+},
+"doc://ChatCore/documentation/ChatCore/ReplyProtocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ReplyProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/ReplyProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ReplyProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ReplyProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/replyprotocol"
+},
+"doc://ChatCore/documentation/ChatCore/Routes": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Routes"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/Routes",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Routes"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Routes",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/routes"
+},
+"doc://ChatCore/documentation/ChatCore/SendChatMessageVO": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SendChatMessageVO"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/SendChatMessageVO",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SendChatMessageVO"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SendChatMessageVO",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/sendchatmessagevo"
+},
+"doc://ChatCore/documentation/ChatCore/SubjectProtocol": {
+  "abstract" : [
+    {
+      "text" : "Some requests need subjectId for example for working with threads it’s needed most of the time.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SubjectProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/SubjectProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SubjectProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SubjectProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/subjectprotocol"
+},
+"doc://ChatCore/documentation/ChatCore/SystemtMetadataProtocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SystemtMetadataProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/SystemtMetadataProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SystemtMetadataProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SystemtMetadataProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/systemtmetadataprotocol"
+},
+"doc://ChatCore/documentation/ChatCore/UniqueIdManagerRequest": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UniqueIdManagerRequest"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/UniqueIdManagerRequest",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UniqueIdManagerRequest"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UniqueIdManagerRequest",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/uniqueidmanagerrequest"
+},
+"doc://ChatCore/documentation/ChatCore/UniqueIdProtocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UniqueIdProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/ChatCore\/documentation\/ChatCore\/UniqueIdProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UniqueIdProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UniqueIdProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/chatcore\/uniqueidprotocol"
+},
+"icon.png": {
+  "alt" : "App icon.",
+  "identifier" : "icon.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/icon.png"
+    }
+  ]
+}
+}
+}
