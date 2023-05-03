@@ -1,10 +1,11 @@
 //
 // UniqueIdManagerRequest.swift
-// Copyright (c) 2022 Chat
+// Copyright (c) 2022 ChatCore
 //
-// Created by Hamed Hosseini on 11/16/22
+// Created by Hamed Hosseini on 12/16/22
 
 import Foundation
+
 open class UniqueIdManagerRequest {
     public var uniqueId: String
     public var isAutoGenratedUniqueId = false

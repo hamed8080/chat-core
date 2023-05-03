@@ -1,8 +1,8 @@
 //
 // Queueable.swift
-// Copyright (c) 2022 Chat
+// Copyright (c) 2022 ChatCore
 //
-// Created by Hamed Hosseini on 12/14/22
+// Created by Hamed Hosseini on 12/16/22
 
 import Async
 import Foundation
@@ -13,7 +13,7 @@ public protocol Queueable {
 }
 
 public protocol UniqueIdProtocol {
-    var uniqueId: String { get }
+    var chatUniqueId: String { get }
 }
 
 public protocol PeerNameProtocol {
@@ -39,7 +39,6 @@ public final class AsyncChatServerMessage: AsyncSnedable {
 
 /// If a message is marked as Chat Sendable, it will send the data to the async server and chat server afterward.
 public protocol ChatSendable: Encodable, UniqueIdProtocol {
-    var chatMessageType: ChatMessageVOTypes { get set }
     var content: String? { get }
 }
 
@@ -50,7 +49,7 @@ public protocol ReplyProtocol {
 }
 
 public protocol MessageTypeProtocol {
-    var messageType: MessageType { get }
+    var _messageType: MessageType { get }
 }
 
 public protocol MetadataProtocol {
@@ -67,8 +66,10 @@ public protocol SubjectProtocol {
 }
 
 public class BareChatSendableRequest: UniqueIdManagerRequest, ChatSendable {
+    public var chatUniqueId: String {
+        return uniqueId
+    }
     public var content: String?
-    public var chatMessageType: ChatMessageVOTypes = .unknown
 }
 
 public protocol BodyRequestProtocol {}

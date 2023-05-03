@@ -1,9 +1,8 @@
 //
-//  ChatTests.swift
-//  
+// ChatTests.swift
+// Copyright (c) 2022 ChatCore
 //
-//  Created by hamed on 4/26/23.
-//
+// Created by Hamed Hosseini on 12/16/22
 
 import XCTest
 

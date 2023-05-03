@@ -45,15 +45,15 @@ public struct SendChatMessageVO: Codable {
         self.uniqueId = uniqueId
     }
 
-    public init(req: ChatSendable, token: String, typeCode: String) {
-        type = req.chatMessageType.rawValue
+    public init(req: ChatSendable, type: Int, token: String, typeCode: String) {
+        self.type = type
         content = req.content
-        messageType = (req as? MessageTypeProtocol)?.messageType.rawValue
+        messageType = (req as? MessageTypeProtocol)?._messageType.rawValue
         metadata = (req as? MetadataProtocol)?.metadata
         repliedTo = (req as? ReplyProtocol)?.repliedTo
         systemMetadata = (req as? SystemtMetadataProtocol)?.systemMetadata
         subjectId = (req as? SubjectProtocol)?.subjectId
-        uniqueId = req.uniqueId
+        uniqueId = req.chatUniqueId
         self.token = token
         self.typeCode = typeCode
     }

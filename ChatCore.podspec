@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ChatCore"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "ChatCore"
   s.description  = "ChatCore SDK consists of all prerequisite models and protocols for Chat SDK."
   s.homepage     = "https://pubgi.fanapsoft.ir/chat/ios/chat-core"
