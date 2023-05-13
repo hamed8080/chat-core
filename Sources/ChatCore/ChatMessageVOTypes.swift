@@ -98,6 +98,36 @@ public enum ChatMessageVOTypes: Int, Codable, SafeDecodable {
     case unarchiveThread = 224
     case threadsUnreadCount = 233
 
+    // CALL
+    case startCallRequest = 70
+    case acceptCall = 71 // never called from server events
+    case cancelCall = 72
+    case deliveredCallRequest = 73
+    case callStarted = 74
+    case endCallRequest = 75
+    case endCall = 76
+    case getCalls = 77
+    case groupCallRequest = 91
+    case leaveCall = 92
+    case addCallParticipant = 93
+    case callParticipantJoined = 94
+    case removeCallParticipant = 95
+    case terminateCall = 96 // never called from server events
+    case muteCallParticipant = 97
+    case unmuteCallParticipant = 98
+    case cancelGroupCall = 99
+    case activeCallParticipants = 110
+    case callSessionCreated = 111
+    case turnOnVideoCall = 113
+    case turnOffVideoCall = 114
+    case startRecording = 121
+    case stopRecording = 122
+    case getCallsToJoin = 129
+    case callClientErrors = 153
+    case callStickerSystemMessage = 225
+    case renewCallRequest = 227
+    case callInquiry = 228
+
     case error = 999
 
     /// Only when can't decode a type.

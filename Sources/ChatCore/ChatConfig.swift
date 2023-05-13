@@ -10,6 +10,7 @@ import Logger
 
 public struct ChatConfig: Codable {
     public var asyncConfig: AsyncConfig
+    public private(set) var callConfig: CallConfig
     public private(set) var ssoHost: String
     public private(set) var platformHost: String
     public private(set) var fileServer: String
@@ -39,6 +40,7 @@ public struct ChatConfig: Codable {
     // Memberwise Initializer
     public init(
         asyncConfig: AsyncConfig,
+        callConfig: CallConfig,
         token: String,
         ssoHost: String,
         platformHost: String,
@@ -63,6 +65,7 @@ public struct ChatConfig: Codable {
         loggerConfig: LoggerConfig = LoggerConfig(prefix: "CHAT_SDK")
     ) {
         self.asyncConfig = asyncConfig
+        self.callConfig = callConfig
         self.ssoHost = ssoHost
         self.platformHost = platformHost
         self.fileServer = fileServer
@@ -93,6 +96,7 @@ public struct ChatConfig: Codable {
 
 public final class ChatConfigBuilder {
     private(set) var asyncConfig: AsyncConfig
+    private(set) var callConfig: CallConfig = CallConfigBuilder().build()
     private(set) var ssoHost: String = ""
     private(set) var platformHost: String = ""
     private(set) var fileServer: String = ""
@@ -118,6 +122,11 @@ public final class ChatConfigBuilder {
 
     public init(_ asyncConfig: AsyncConfig) {
         self.asyncConfig = asyncConfig
+    }
+
+    @discardableResult public func callConfig(_ callConfig: CallConfig) -> ChatConfigBuilder {
+        self.callConfig = callConfig
+        return self
     }
 
     @discardableResult public func ssoHost(_ ssoHost: String) -> ChatConfigBuilder {
@@ -233,6 +242,7 @@ public final class ChatConfigBuilder {
     public func build() -> ChatConfig {
         ChatConfig(
             asyncConfig: asyncConfig,
+            callConfig: callConfig,
             token: token,
             ssoHost: ssoHost,
             platformHost: platformHost,
