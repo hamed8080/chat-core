@@ -16,15 +16,19 @@ public struct ChatResponse<T> {
     public var error: ChatError?
     public var contentCount: Int?
     public var pagination: Pagination?
+    public var hasNext: Bool
+    public var cache: Bool = false
     public var subjectId: Int?
     public var time: Int?
 
-    public init(uniqueId: String? = nil, result: T? = nil, error: ChatError? = nil, contentCount: Int? = nil, pagination: Pagination? = nil, subjectId: Int? = nil, time: Int? = nil) {
+    public init(uniqueId: String? = nil, result: T? = nil, error: ChatError? = nil, contentCount: Int? = nil, hasNext: Bool = false, cache: Bool = false, pagination: Pagination? = nil, subjectId: Int? = nil, time: Int? = nil) {
         self.uniqueId = uniqueId
         self.result = result
         self.error = error
         self.contentCount = contentCount
         self.pagination = pagination
+        self.hasNext = hasNext
+        self.cache = cache
         self.subjectId = subjectId
         self.time = time
     }
