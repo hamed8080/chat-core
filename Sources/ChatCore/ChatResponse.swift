@@ -28,4 +28,15 @@ public struct ChatResponse<T> {
         self.subjectId = subjectId
         self.time = time
     }
+
+    public init<OLDType>(response: ChatResponse<OLDType>, result: T) {
+        self.result = result
+        self.uniqueId = response.uniqueId
+        self.error = response.error
+        self.contentCount = response.contentCount
+        self.hasNext = response.hasNext
+        self.cache = response.cache
+        self.subjectId = response.subjectId
+        self.time = response.time
+    }
 }
