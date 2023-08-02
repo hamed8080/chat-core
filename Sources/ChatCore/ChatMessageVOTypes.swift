@@ -97,6 +97,7 @@ public enum ChatMessageVOTypes: Int, Codable, SafeDecodable {
     case archiveThread = 223
     case unarchiveThread = 224
     case threadsUnreadCount = 233
+    case replyPrivately = 238
 
     // CALL
     case startCallRequest = 70
