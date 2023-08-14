@@ -99,6 +99,7 @@ public enum ChatMessageVOTypes: Int, Codable, SafeDecodable {
     case threadsUnreadCount = 233
     case addReaction = 239
     case replaceReaction = 240
+    case removeReaction = 241
     case reactionList = 242
 
     // CALL
