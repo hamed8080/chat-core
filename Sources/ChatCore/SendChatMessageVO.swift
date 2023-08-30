@@ -48,7 +48,7 @@ public struct SendChatMessageVO: Codable {
     public init(req: ChatSendable, type: Int, token: String, typeCode: String) {
         self.type = type
         content = req.content
-        messageType = (req as? MessageTypeProtocol)?._messageType.rawValue
+        messageType = (req as? MessageTypeProtocol)?._messageType?.rawValue
         metadata = (req as? MetadataProtocol)?.metadata
         repliedTo = (req as? ReplyProtocol)?.repliedTo
         systemMetadata = (req as? SystemtMetadataProtocol)?.systemMetadata

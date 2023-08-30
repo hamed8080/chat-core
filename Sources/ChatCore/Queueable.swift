@@ -49,7 +49,7 @@ public protocol ReplyProtocol {
 }
 
 public protocol MessageTypeProtocol {
-    var _messageType: MessageType { get }
+    var _messageType: MessageType? { get }
 }
 
 public protocol MetadataProtocol {
@@ -71,5 +71,3 @@ public class BareChatSendableRequest: UniqueIdManagerRequest, ChatSendable {
     }
     public var content: String?
 }
-
-public protocol BodyRequestProtocol {}
