@@ -34,6 +34,8 @@ public struct ChatConfig: Codable {
     public private(set) var deviecLimitationSpaceMB: Int64 = 100
     public private(set) var getDeviceIdFromToken: Bool = false
     public private(set) var appGroup: String?
+    /// With Enabling queue you have the option to retry a message when a message fails to send in times there is a connection error.
+    public private(set) var enableQueue: Bool = false
 
     public private(set) var loggerConfig: LoggerConfig = .init(prefix: "CHAT_SDK")
 
@@ -62,6 +64,7 @@ public struct ChatConfig: Codable {
         deviecLimitationSpaceMB: Int64 = 100,
         getDeviceIdFromToken: Bool = false,
         appGroup: String? = nil,
+        enableQueue: Bool = false,
         loggerConfig: LoggerConfig = LoggerConfig(prefix: "CHAT_SDK")
     ) {
         self.asyncConfig = asyncConfig
@@ -86,6 +89,7 @@ public struct ChatConfig: Codable {
         self.deviecLimitationSpaceMB = deviecLimitationSpaceMB
         self.getDeviceIdFromToken = getDeviceIdFromToken
         self.appGroup = appGroup
+        self.enableQueue = enableQueue
         self.loggerConfig = loggerConfig
     }
 
@@ -118,6 +122,7 @@ public final class ChatConfigBuilder {
     private(set) var deviecLimitationSpaceMB: Int64 = 100
     private(set) var getDeviceIdFromToken: Bool = false
     private(set) var appGroup: String?
+    private(set) var enableQueue: Bool = false
     private(set) var loggerConfig: LoggerConfig = .init(prefix: "CHAT_SDK")
 
     public init(_ asyncConfig: AsyncConfig) {
@@ -234,6 +239,11 @@ public final class ChatConfigBuilder {
         return self
     }
 
+    @discardableResult public func enableQueue(_ enableQueue: Bool) -> ChatConfigBuilder {
+        self.enableQueue = enableQueue
+        return self
+    }
+
     @discardableResult public func loggerConfig(_ loggerConfig: LoggerConfig) -> ChatConfigBuilder {
         self.loggerConfig = loggerConfig
         return self
@@ -264,6 +274,7 @@ public final class ChatConfigBuilder {
             deviecLimitationSpaceMB: deviecLimitationSpaceMB,
             getDeviceIdFromToken: getDeviceIdFromToken,
             appGroup: appGroup,
+            enableQueue: enableQueue,
             loggerConfig: loggerConfig
         )
     }
