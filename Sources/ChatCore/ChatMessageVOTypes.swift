@@ -104,6 +104,8 @@ public enum ChatMessageVOTypes: Int, Codable, SafeDecodable {
     case getReaction = 243
     case reactionCount = 244
     case replyPrivately = 238
+    case setAdminRoleToUser = 250
+    case removeAdminRoleFromUser = 251
 
     // CALL
     case startCallRequest = 70
