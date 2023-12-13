@@ -48,4 +48,6 @@ public enum Routes: String {
     case mapSearch = "/search"
     case mapRouting = "/routing"
     case mapStaticImage = "/static"
+
+    case baseMapLink = "https://maps.neshan.org/@"
 }
