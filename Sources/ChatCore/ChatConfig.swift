@@ -34,6 +34,7 @@ public struct ChatConfig: Codable {
     public private(set) var deviecLimitationSpaceMB: Int64 = 100
     public private(set) var getDeviceIdFromToken: Bool = false
     public private(set) var appGroup: String?
+    public private(set) var saveOnUpload: Bool = true
     /// With Enabling queue you have the option to retry a message when a message fails to send in times there is a connection error.
     public private(set) var enableQueue: Bool = false
 
@@ -64,6 +65,7 @@ public struct ChatConfig: Codable {
         deviecLimitationSpaceMB: Int64 = 100,
         getDeviceIdFromToken: Bool = false,
         appGroup: String? = nil,
+        saveOnUpload: Bool = true,
         enableQueue: Bool = false,
         loggerConfig: LoggerConfig = LoggerConfig(prefix: "CHAT_SDK")
     ) {
@@ -89,12 +91,44 @@ public struct ChatConfig: Codable {
         self.deviecLimitationSpaceMB = deviecLimitationSpaceMB
         self.getDeviceIdFromToken = getDeviceIdFromToken
         self.appGroup = appGroup
+        self.saveOnUpload = saveOnUpload
         self.enableQueue = enableQueue
         self.loggerConfig = loggerConfig
     }
 
     public mutating func updateToken(_ token: String) {
         self.token = token
+    }
+
+
+    public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.asyncConfig = try container.decode(AsyncConfig.self, forKey: .asyncConfig)
+        self.callConfig = try container.decode(CallConfig.self, forKey: .callConfig)
+        self.ssoHost = try container.decode(String.self, forKey: .ssoHost)
+        self.platformHost = try container.decode(String.self, forKey: .platformHost)
+        self.fileServer = try container.decode(String.self, forKey: .fileServer)
+        self.podSpaceFileServerAddress = try container.decode(String.self, forKey: .podSpaceFileServerAddress)
+        self.token = try container.decode(String.self, forKey: .token)
+        self.mapApiKey = try container.decodeIfPresent(String.self, forKey: .mapApiKey)
+        self.mapServer = try container.decode(String.self, forKey: .mapServer)
+        self.typeCode = try container.decode(String.self, forKey: .typeCode)
+        self.enableCache = try container.decode(Bool.self, forKey: .enableCache)
+        self.cacheTimeStampInSec = try container.decode(Int.self, forKey: .cacheTimeStampInSec)
+        self.msgPriority = try container.decode(Int.self, forKey: .msgPriority)
+        self.msgTTL = try container.decode(Int.self, forKey: .msgTTL)
+        self.httpRequestTimeout = try container.decode(Int.self, forKey: .httpRequestTimeout)
+        self.wsConnectionWaitTime = try container.decode(Double.self, forKey: .wsConnectionWaitTime)
+        self.persistLogsOnServer = try container.decode(Bool.self, forKey: .persistLogsOnServer)
+        self.maxReconnectTimeInterval = try container.decode(Int.self, forKey: .maxReconnectTimeInterval)
+        self.localImageCustomPath = try container.decodeIfPresent(URL.self, forKey: .localImageCustomPath)
+        self.localFileCustomPath = try container.decodeIfPresent(URL.self, forKey: .localFileCustomPath)
+        self.deviecLimitationSpaceMB = try container.decode(Int64.self, forKey: .deviecLimitationSpaceMB)
+        self.getDeviceIdFromToken = try container.decode(Bool.self, forKey: .getDeviceIdFromToken)
+        self.appGroup = try container.decodeIfPresent(String.self, forKey: .appGroup)
+        self.saveOnUpload = try container.decodeIfPresent(Bool.self, forKey: .saveOnUpload) ?? true
+        self.enableQueue = try container.decode(Bool.self, forKey: .enableQueue)
+        self.loggerConfig = try container.decode(LoggerConfig.self, forKey: .loggerConfig)
     }
 }
 
@@ -122,6 +156,7 @@ public final class ChatConfigBuilder {
     private(set) var deviecLimitationSpaceMB: Int64 = 100
     private(set) var getDeviceIdFromToken: Bool = false
     private(set) var appGroup: String?
+    private(set) var saveOnUpload: Bool = true
     private(set) var enableQueue: Bool = false
     private(set) var loggerConfig: LoggerConfig = .init(prefix: "CHAT_SDK")
 
@@ -239,6 +274,11 @@ public final class ChatConfigBuilder {
         return self
     }
 
+    @discardableResult public func saveOnUpload(_ saveOnUpload: Bool) -> ChatConfigBuilder {
+        self.saveOnUpload = saveOnUpload
+        return self
+    }
+
     @discardableResult public func enableQueue(_ enableQueue: Bool) -> ChatConfigBuilder {
         self.enableQueue = enableQueue
         return self
@@ -274,6 +314,7 @@ public final class ChatConfigBuilder {
             deviecLimitationSpaceMB: deviecLimitationSpaceMB,
             getDeviceIdFromToken: getDeviceIdFromToken,
             appGroup: appGroup,
+            saveOnUpload: saveOnUpload,
             enableQueue: enableQueue,
             loggerConfig: loggerConfig
         )
