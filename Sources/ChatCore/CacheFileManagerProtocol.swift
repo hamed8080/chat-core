@@ -45,12 +45,12 @@ public protocol CacheFileManagerProtocol {
     /// Return the data of the file if it exists. Get data of the file asynchronously on the background thread.
     /// - Returns: Data of the file.
     /// - Parameter url: The HttpURL of the file.
-    func getData(url: URL) -> Data?
+    func getData(url: URL, completion: @escaping (Data?) -> Void)
 
     /// Return the data of the file a file in group if it exists. Get data of the a file in a group asynchronously on the background thread.
     /// - Returns: Data of the file.
     /// - Parameter url: The HttpURL of the file.
-    func getDataInGroup(url: URL) -> Data?
+    func getDataInGroup(url: URL, completion: @escaping (Data?) -> Void)
 
     /// Return crosspondent file url for a HttpURL.
     /// - Parameter url: The HttpURL of the file.
