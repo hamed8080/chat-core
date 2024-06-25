@@ -18,7 +18,7 @@ public struct ChatConfig: Codable {
     public private(set) var token: String
     public private(set) var mapApiKey: String?
     public private(set) var mapServer: String = "https://api.neshan.org/v1"
-    public private(set) var typeCode: String = "default"
+    public private(set) var typeCodes: [OwnerTypeCode] = []
     public private(set) var enableCache: Bool = false
     public private(set) var cacheTimeStampInSec: Int = (2 * 24) * (60 * 60)
     public private(set) var msgPriority: Int = 1
@@ -51,7 +51,7 @@ public struct ChatConfig: Codable {
         podSpaceFileServerAddress _: String = "https://podspace.pod.ir",
         mapApiKey: String? = nil,
         mapServer: String = "https://api.neshan.org/v1",
-        typeCode: String = "default",
+        typeCodes: [OwnerTypeCode] = [],
         enableCache: Bool = false,
         cacheTimeStampInSec: Int = (2 * 24) * (60 * 60),
         msgPriority: Int = 1,
@@ -77,7 +77,10 @@ public struct ChatConfig: Codable {
         self.token = token
         self.mapApiKey = mapApiKey
         self.mapServer = mapServer
-        self.typeCode = typeCode
+        self.typeCodes.append(contentsOf: typeCodes)
+        if self.typeCodes.count == 0 {
+            fatalError("You have to pass at least one type code!")
+        }
         self.enableCache = enableCache
         self.cacheTimeStampInSec = cacheTimeStampInSec
         self.msgPriority = msgPriority
@@ -100,6 +103,35 @@ public struct ChatConfig: Codable {
         self.token = token
     }
 
+    enum CodingKeys: String, CodingKey {
+        case asyncConfig
+        case callConfig
+        case ssoHost
+        case platformHost
+        case fileServer
+        case podSpaceFileServerAddress
+        case token
+        case mapApiKey
+        case mapServer
+        case typeCodes
+        case enableCache
+        case cacheTimeStampInSec
+        case msgPriority
+        case msgTTL
+        case httpRequestTimeout
+        case wsConnectionWaitTime
+        case persistLogsOnServer
+        case maxReconnectTimeInterval
+        case localImageCustomPath
+        case localFileCustomPath
+        case deviecLimitationSpaceMB
+        case getDeviceIdFromToken
+        case appGroup
+        case saveOnUpload
+        case enableQueue
+        case loggerConfig
+        case oldTypeCode = "typeCode"
+    }
 
     public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
@@ -112,7 +144,10 @@ public struct ChatConfig: Codable {
         self.token = try container.decode(String.self, forKey: .token)
         self.mapApiKey = try container.decodeIfPresent(String.self, forKey: .mapApiKey)
         self.mapServer = try container.decode(String.self, forKey: .mapServer)
-        self.typeCode = try container.decode(String.self, forKey: .typeCode)
+        self.typeCodes = try container.decodeIfPresent([OwnerTypeCode].self, forKey: .typeCodes) ?? []
+        if typeCodes.count == 0, let oldTypeCode = try? container.decodeIfPresent(String.self, forKey: .oldTypeCode) {
+            typeCodes = [.init(typeCode: oldTypeCode, ownerId: nil)]
+        }
         self.enableCache = try container.decode(Bool.self, forKey: .enableCache)
         self.cacheTimeStampInSec = try container.decode(Int.self, forKey: .cacheTimeStampInSec)
         self.msgPriority = try container.decode(Int.self, forKey: .msgPriority)
@@ -130,6 +165,36 @@ public struct ChatConfig: Codable {
         self.enableQueue = try container.decode(Bool.self, forKey: .enableQueue)
         self.loggerConfig = try container.decode(LoggerConfig.self, forKey: .loggerConfig)
     }
+    
+    public func encode(to encoder: any Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encodeIfPresent(asyncConfig, forKey: .asyncConfig)
+        try container.encodeIfPresent(callConfig, forKey: .callConfig)
+        try container.encodeIfPresent(ssoHost, forKey: .ssoHost)
+        try container.encodeIfPresent(platformHost, forKey: .platformHost)
+        try container.encodeIfPresent(fileServer, forKey: .fileServer)
+        try container.encodeIfPresent(podSpaceFileServerAddress, forKey: .podSpaceFileServerAddress)
+        try container.encodeIfPresent(token, forKey: .token)
+        try container.encodeIfPresent(mapApiKey, forKey: .mapApiKey)
+        try container.encodeIfPresent(mapServer, forKey: .mapServer)
+        try container.encodeIfPresent(typeCodes, forKey: .typeCodes)
+        try container.encodeIfPresent(enableCache, forKey: .enableCache)
+        try container.encodeIfPresent(cacheTimeStampInSec, forKey: .cacheTimeStampInSec)
+        try container.encodeIfPresent(msgPriority, forKey: .msgPriority)
+        try container.encodeIfPresent(msgTTL, forKey: .msgTTL)
+        try container.encodeIfPresent(httpRequestTimeout, forKey: .httpRequestTimeout)
+        try container.encodeIfPresent(wsConnectionWaitTime, forKey: .wsConnectionWaitTime)
+        try container.encodeIfPresent(persistLogsOnServer, forKey: .persistLogsOnServer)
+        try container.encodeIfPresent(maxReconnectTimeInterval, forKey: .maxReconnectTimeInterval)
+        try container.encodeIfPresent(localImageCustomPath, forKey: .localImageCustomPath)
+        try container.encodeIfPresent(localFileCustomPath, forKey: .localFileCustomPath)
+        try container.encodeIfPresent(deviecLimitationSpaceMB, forKey: .deviecLimitationSpaceMB)
+        try container.encodeIfPresent(getDeviceIdFromToken, forKey: .getDeviceIdFromToken)
+        try container.encodeIfPresent(appGroup, forKey: .appGroup)
+        try container.encodeIfPresent(saveOnUpload, forKey: .saveOnUpload)
+        try container.encodeIfPresent(enableQueue, forKey: .enableQueue)
+        try container.encodeIfPresent(loggerConfig, forKey: .loggerConfig)
+    }
 }
 
 public final class ChatConfigBuilder {
@@ -142,7 +207,7 @@ public final class ChatConfigBuilder {
     private(set) var token: String = ""
     private(set) var mapApiKey: String?
     private(set) var mapServer: String = "https://api.neshan.org/v1"
-    private(set) var typeCode: String = "default"
+    private(set) var typeCodes: [OwnerTypeCode] = []
     private(set) var enableCache: Bool = false
     private(set) var cacheTimeStampInSec: Int = (2 * 24) * (60 * 60)
     private(set) var msgPriority: Int = 1
@@ -204,8 +269,8 @@ public final class ChatConfigBuilder {
         return self
     }
 
-    @discardableResult public func typeCode(_ typeCode: String) -> ChatConfigBuilder {
-        self.typeCode = typeCode
+    @discardableResult public func typeCodes(_ typeCodes: [OwnerTypeCode]) -> ChatConfigBuilder {
+        self.typeCodes = typeCodes
         return self
     }
 
@@ -300,7 +365,7 @@ public final class ChatConfigBuilder {
             podSpaceFileServerAddress: podSpaceFileServerAddress,
             mapApiKey: mapApiKey,
             mapServer: mapServer,
-            typeCode: typeCode,
+            typeCodes: typeCodes,
             enableCache: enableCache,
             cacheTimeStampInSec: cacheTimeStampInSec,
             msgPriority: msgPriority,

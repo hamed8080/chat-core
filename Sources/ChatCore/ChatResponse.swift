@@ -17,8 +17,9 @@ public struct ChatResponse<T> {
     public var cache: Bool = false
     public var subjectId: Int?
     public var time: Int?
+    public var typeCode: String?
 
-    public init(uniqueId: String? = nil, result: T? = nil, error: ChatError? = nil, contentCount: Int? = nil, hasNext: Bool = false, cache: Bool = false, subjectId: Int? = nil, time: Int? = nil) {
+    public init(uniqueId: String? = nil, result: T? = nil, error: ChatError? = nil, contentCount: Int? = nil, hasNext: Bool = false, cache: Bool = false, subjectId: Int? = nil, time: Int? = nil, typeCode: String?) {
         self.uniqueId = uniqueId
         self.result = result
         self.error = error
@@ -27,5 +28,6 @@ public struct ChatResponse<T> {
         self.cache = cache
         self.subjectId = subjectId
         self.time = time
+        self.typeCode = typeCode
     }
 }
