@@ -14,6 +14,7 @@ public enum ChatErrorType: String, Identifiable, CaseIterable {
     case errorRaedyChat
     case exportError
     case networkError
+    case notAddedInUserGroup
     case undefined
 }
 
