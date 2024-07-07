@@ -18,6 +18,7 @@ public struct SendChatMessageVO: Codable {
     public var subjectId: Int?
     public var tokenIssuer: Int? = 1
     public var typeCode: String?
+    public var ownerId: Int?
     public var uniqueId: String?
 
     public init(type: Int,
@@ -30,6 +31,7 @@ public struct SendChatMessageVO: Codable {
                 subjectId: Int? = nil,
                 tokenIssuer: Int = 1,
                 typeCode: String? = nil,
+                ownerId: Int? = nil,
                 uniqueId: String? = nil)
     {
         self.type = type
@@ -42,10 +44,11 @@ public struct SendChatMessageVO: Codable {
         self.subjectId = subjectId
         self.tokenIssuer = tokenIssuer
         self.typeCode = typeCode
+        self.ownerId = ownerId
         self.uniqueId = uniqueId
     }
 
-    public init(req: ChatSendable, type: Int, token: String, typeCode: String) {
+    public init(req: ChatSendable, type: Int, token: String, typeCode: String, ownerId: Int?) {
         self.type = type
         content = req.content
         messageType = (req as? MessageTypeProtocol)?._messageType?.rawValue
@@ -56,6 +59,7 @@ public struct SendChatMessageVO: Codable {
         uniqueId = req.chatUniqueId
         self.token = token
         self.typeCode = typeCode
+        self.ownerId = ownerId
     }
 
     public init?(with asyncData: Data?) {
