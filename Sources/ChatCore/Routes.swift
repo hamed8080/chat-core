@@ -42,6 +42,7 @@ public enum Routes: String {
     // Public
     case files = "/api/files"
     case images = "/api/images"
+    case thumbnail = "/api/files/{hashCode}/thumbnail"
 
     // Neshan Map
     case mapReverse = "/reverse"
