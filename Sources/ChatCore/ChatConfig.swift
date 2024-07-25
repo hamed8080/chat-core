@@ -14,10 +14,11 @@ public struct ChatConfig: Codable {
     public private(set) var ssoHost: String
     public private(set) var platformHost: String
     public private(set) var fileServer: String
-    public private(set) var podSpaceFileServerAddress: String = "https://podspace.pod.ir"
+    public private(set) var podSpaceFileServerAddress: String
     public private(set) var token: String
     public private(set) var mapApiKey: String?
-    public private(set) var mapServer: String = "https://api.neshan.org/v1"
+    public private(set) var mapServer: String
+    public private(set) var baseMapLink: String
     public private(set) var typeCodes: [OwnerTypeCode] = []
     public private(set) var enableCache: Bool = false
     public private(set) var cacheTimeStampInSec: Int = (2 * 24) * (60 * 60)
@@ -48,9 +49,10 @@ public struct ChatConfig: Codable {
         ssoHost: String,
         platformHost: String,
         fileServer: String,
-        podSpaceFileServerAddress _: String = "https://podspace.pod.ir",
+        podSpaceFileServerAddress: String,
         mapApiKey: String? = nil,
-        mapServer: String = "https://api.neshan.org/v1",
+        mapServer: String,
+        baseMapLink: String,
         typeCodes: [OwnerTypeCode] = [],
         enableCache: Bool = false,
         cacheTimeStampInSec: Int = (2 * 24) * (60 * 60),
@@ -77,10 +79,12 @@ public struct ChatConfig: Codable {
         self.token = token
         self.mapApiKey = mapApiKey
         self.mapServer = mapServer
+        self.baseMapLink = baseMapLink
         self.typeCodes.append(contentsOf: typeCodes)
         if self.typeCodes.count == 0 {
             fatalError("You have to pass at least one type code!")
         }
+        self.podSpaceFileServerAddress = podSpaceFileServerAddress
         self.enableCache = enableCache
         self.cacheTimeStampInSec = cacheTimeStampInSec
         self.msgPriority = msgPriority
@@ -113,6 +117,7 @@ public struct ChatConfig: Codable {
         case token
         case mapApiKey
         case mapServer
+        case baseMapLink
         case typeCodes
         case enableCache
         case cacheTimeStampInSec
@@ -144,6 +149,7 @@ public struct ChatConfig: Codable {
         self.token = try container.decode(String.self, forKey: .token)
         self.mapApiKey = try container.decodeIfPresent(String.self, forKey: .mapApiKey)
         self.mapServer = try container.decode(String.self, forKey: .mapServer)
+        self.baseMapLink = try container.decode(String.self, forKey: .baseMapLink)
         self.typeCodes = try container.decodeIfPresent([OwnerTypeCode].self, forKey: .typeCodes) ?? []
         if typeCodes.count == 0, let oldTypeCode = try? container.decodeIfPresent(String.self, forKey: .oldTypeCode) {
             typeCodes = [.init(typeCode: oldTypeCode, ownerId: nil)]
@@ -177,6 +183,7 @@ public struct ChatConfig: Codable {
         try container.encodeIfPresent(token, forKey: .token)
         try container.encodeIfPresent(mapApiKey, forKey: .mapApiKey)
         try container.encodeIfPresent(mapServer, forKey: .mapServer)
+        try container.encodeIfPresent(baseMapLink, forKey: .baseMapLink)
         try container.encodeIfPresent(typeCodes, forKey: .typeCodes)
         try container.encodeIfPresent(enableCache, forKey: .enableCache)
         try container.encodeIfPresent(cacheTimeStampInSec, forKey: .cacheTimeStampInSec)
@@ -203,10 +210,11 @@ public final class ChatConfigBuilder {
     private(set) var ssoHost: String = ""
     private(set) var platformHost: String = ""
     private(set) var fileServer: String = ""
-    private(set) var podSpaceFileServerAddress: String = "https://podspace.pod.ir"
+    private(set) var podSpaceFileServerAddress: String = ""
     private(set) var token: String = ""
     private(set) var mapApiKey: String?
-    private(set) var mapServer: String = "https://api.neshan.org/v1"
+    private(set) var mapServer: String = ""
+    private(set) var baseMapLink: String = ""
     private(set) var typeCodes: [OwnerTypeCode] = []
     private(set) var enableCache: Bool = false
     private(set) var cacheTimeStampInSec: Int = (2 * 24) * (60 * 60)
@@ -266,6 +274,11 @@ public final class ChatConfigBuilder {
 
     @discardableResult public func mapServer(_ mapServer: String) -> ChatConfigBuilder {
         self.mapServer = mapServer
+        return self
+    }
+
+    @discardableResult public func baseMapLink(_ baseMapLink: String) -> ChatConfigBuilder {
+        self.baseMapLink = baseMapLink
         return self
     }
 
@@ -365,6 +378,7 @@ public final class ChatConfigBuilder {
             podSpaceFileServerAddress: podSpaceFileServerAddress,
             mapApiKey: mapApiKey,
             mapServer: mapServer,
+            baseMapLink: baseMapLink,
             typeCodes: typeCodes,
             enableCache: enableCache,
             cacheTimeStampInSec: cacheTimeStampInSec,
