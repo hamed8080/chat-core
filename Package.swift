@@ -17,21 +17,21 @@ let package = Package(
             targets: ["ChatCore"]),
     ],
     dependencies: [
-        .package(path: "../Async"),
+        .package(url: "https://pubgi.sandpod.ir/chat/ios/async", from: "2.1.0"),
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
     ],
     targets: [
         .target(
             name: "ChatCore",
             dependencies: [
-                .productItem(name: "Async", package: "Async"),
+                .productItem(name: "Async", package: "async"),
             ]
         ),
         .testTarget(
             name: "ChatCoreTests",
             dependencies: [
                 "ChatCore",
-                .productItem(name: "Async", package: "Async"),
+                .productItem(name: "Async", package: "async"),
             ],
             resources: []
         ),
