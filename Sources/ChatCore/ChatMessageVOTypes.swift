@@ -103,11 +103,13 @@ public enum ChatMessageVOTypes: Int, Codable, SafeDecodable {
     case reactionList = 242
     case getReaction = 243
     case reactionCount = 244
+    case customizeReactions = 245
     case replyPrivately = 238
     case setAdminRoleToUser = 250
     case removeAdminRoleFromUser = 251
     case lastActionInThread = 252
     case addUserToUserGroup = 253
+    case allowedReactions = 255
 
     // CALL
     case startCallRequest = 70
