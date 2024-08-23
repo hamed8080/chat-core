@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let useLocaldependency = false
+let useLocaldependency = true
 
 let local: [Package.Dependency] = [
     .package(path: "../Async"),
