@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let useLocaldependency = false
+let useLocalDependency = false
 
 let local: [Package.Dependency] = [
     .package(path: "../Async"),
@@ -11,7 +11,7 @@ let local: [Package.Dependency] = [
 ]
 
 let remote: [Package.Dependency] = [
-    .package(url: "https://pubgi.sandpod.ir/chat/ios/async", from: "2.2.0"),
+    .package(url: "https://pubgi.sandpod.ir/chat/ios/async", from: "2.2.1"),
     .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
 ]
 
@@ -20,7 +20,7 @@ let package = Package(
     defaultLocalization: "en",
     platforms: [
         .iOS(.v10),
-        .macOS(.v12),
+        .macOS(.v10_13),
         .macCatalyst(.v13),
     ],
     products: [
@@ -28,19 +28,19 @@ let package = Package(
             name: "ChatCore",
             targets: ["ChatCore"]),
     ],
-    dependencies: useLocaldependency ? local : remote,
+    dependencies: useLocalDependency ? local : remote,
     targets: [
         .target(
             name: "ChatCore",
             dependencies: [
-                .productItem(name: "Async", package: useLocaldependency ? "Async" : "async"),
+                .productItem(name: "Async", package: useLocalDependency ? "Async" : "async"),
             ]
         ),
         .testTarget(
             name: "ChatCoreTests",
             dependencies: [
                 "ChatCore",
-                .productItem(name: "Async", package: useLocaldependency ? "Async" : "async"),
+                .productItem(name: "Async", package: useLocalDependency ? "Async" : "async"),
             ],
             resources: []
         ),
